@@ -71,7 +71,6 @@
 <!ENTITY addCurPagesCmd.label "Bookmark All Tabs…">
 <!ENTITY organizeBookmarks.label "Organize Bookmarks…">
 <!ENTITY bookmarkAllCmd.label "Bookmark All Tabs…">
-<!ENTITY bookmarksToolbarChevron.tooltip "Show more bookmarks">
 
 <!ENTITY backCmd.label                "Back">
 <!ENTITY backCmd.accesskey            "B">
@@ -88,7 +87,6 @@
 <!ENTITY stopCmd.macCommandKey        ".">
 <!ENTITY stopButton.tooltip           "Stop loading this page">
 <!ENTITY goEndCap.tooltip             "Go to the address in the Location Bar">
-<!ENTITY feedButton.tooltip           "Subscribe to this page…">
 <!ENTITY printButton.label            "Print">
 <!ENTITY printButton.tooltip          "Print this page">
 
@@ -168,12 +166,8 @@
 <!ENTITY clearRecentHistoryCmd.label            "Clear Recent History">
 <!ENTITY clearRecentHistoryCmd.accesskey        "H">
 
-<!-- LOCALIZATION NOTE : These two strings can share an access key beause they never appear together on the menu -->
-<!ENTITY privateBrowsingCmd.start.label         "Start Private Browsing">
-<!ENTITY privateBrowsingCmd.start.accesskey     "B">
-<!ENTITY privateBrowsingCmd.stop.label          "Stop Private Browsing">
-<!ENTITY privateBrowsingCmd.stop.accesskey      "B">
-<!ENTITY privateBrowsingCmd.commandkey          "P">
+<!ENTITY privateBrowsingCmd.label            "Private Browsing">
+<!ENTITY privateBrowsingCmd.accesskey        "B">
 
 <!ENTITY viewMenu.label         "View"> 
 <!ENTITY viewMenu.accesskey       "V"> 
