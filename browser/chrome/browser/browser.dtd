@@ -128,8 +128,6 @@
 
 <!-- Toolbar items --> 
 <!ENTITY  homeButton.label            "Home">
-<!ENTITY tabCandyButton.label         "TabCandy">
-<!ENTITY tabCandyButton.tooltip       "Open a visual tab interface">
 
 <!ENTITY bookmarksButton.label          "Bookmarks">
 <!ENTITY bookmarksButton.tooltip        "Display your bookmarks">
@@ -225,8 +223,6 @@
 
 <!ENTITY viewMenu.label         "View"> 
 <!ENTITY viewMenu.accesskey       "V"> 
-<!ENTITY showTabCandy.label "TabCandy">
-<!ENTITY showTabCandy.commandkey "E">
 <!ENTITY viewToolbarsMenu.label       "Toolbars"> 
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Sidebar">
@@ -261,7 +257,7 @@
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
-  
+
   Unix: Ctrl+J (0.8, 0.9 support)
         Ctrl+K (cross platform binding)
   Mac:  Ctrl+K (cross platform binding)
@@ -276,7 +272,7 @@
   for people to switch to Linux.
 
   Do *not* tamper with these values without talking to ben@mozilla.org
-  
+
  -->
 <!ENTITY searchFocus.commandkey       "k">
 <!ENTITY searchFocus.commandkey2      "e">
@@ -365,7 +361,6 @@
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "Copy Audio Location">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
-<!ENTITY blockImageCmd.accesskey      "B">
 <!ENTITY copyEmailCmd.label           "Copy Email Address">
 <!ENTITY copyEmailCmd.accesskey       "E">
 <!ENTITY thisFrameMenu.label              "This Frame">
