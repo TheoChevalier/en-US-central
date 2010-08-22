@@ -73,7 +73,7 @@
 <!ENTITY cmd.moveBookmarks.label                  "Move…">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
 
-<!ENTITY col.name.label          "Name">
+<!ENTITY col.title.label         "Name">
 <!ENTITY col.tags.label          "Tags">
 <!ENTITY col.url.label           "Location">
 <!ENTITY col.lastvisit.label     "Visit Date">
@@ -102,3 +102,7 @@
 <!ENTITY detailsPane.less.label "Less">
 <!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Select an item to view and edit its properties">
+
+<!ENTITY editBookmark.done.label "Done">
+<!ENTITY editBookmark.cancel.label "Cancel">
+<!ENTITY editBookmark.removeBookmark.accessKey "R">
