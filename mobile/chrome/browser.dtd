@@ -19,12 +19,14 @@
 <!ENTITY selectAll.label       "Select All">
 <!ENTITY noSuggestions.label   "(No suggestions)">
 <!ENTITY addToDictionary.label "Add to Dictionary">
+<!ENTITY inputMethod.label     "Select Input Method">
 
 <!ENTITY allPagesHeader.label      "All Pages">
 <!ENTITY bookmarksHeader.label     "Bookmarks">
 <!ENTITY historyHeader.label       "History">
 <!ENTITY desktopHeader.label       "Desktop">
 
+<!ENTITY editBookmarkDialog.title  "Edit Bookmark">
 <!ENTITY editBookmarkDone.label    "Done">
 <!ENTITY editBookmarkTags.label    "Add tags here">
 
@@ -109,6 +111,5 @@
 <!ENTITY pageactions.search.addNew   "Add Search Engine">
 
 <!ENTITY selectHelper.emptytext      "Filter List">
-<!ENTITY inputMethod.label           "Select Input Method">
 
 <!ENTITY appMenu.siteOptions         "Site Options">
