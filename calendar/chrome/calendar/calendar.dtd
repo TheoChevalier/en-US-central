@@ -172,8 +172,6 @@
 <!ENTITY calendar.task-details.category.label        "category">
 <!ENTITY calendar.task-details.repeat.label          "repeat">
 <!ENTITY calendar.task-details.attachments.label     "attachments">
-<!ENTITY calendar.task-details.start.label           "start date">
-<!ENTITY calendar.task-details.due.label             "due date">
 
 <!ENTITY calendar.task.category.button.tooltip  "Categorize tasks">
 <!ENTITY calendar.task.complete.button.tooltip  "Mark selected tasks completed">
@@ -203,10 +201,6 @@
 <!ENTITY calendar.context.pasteevent.accesskey        "P">
 <!ENTITY calendar.context.button.label                "Today Pane" >
 <!ENTITY calendar.context.button.accesskey            "T" >
-<!ENTITY calendar.context.attendance.menu.label       "Attendance" >
-<!ENTITY calendar.context.attendance.menu.accesskey   "d" >
-<!ENTITY calendar.context.attendance.occurrence.label "This Occurrence" >
-<!ENTITY calendar.context.attendance.all.label        "All Occurrences" >
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label              "Progress">
@@ -238,12 +232,6 @@
 <!ENTITY priority.level.normal.accesskey    "N">
 <!ENTITY priority.level.high                "High">
 <!ENTITY priority.level.high.accesskey      "H">
-
-<!-- Task View -->
-<!-- Note that the above *.context.* strings are currently used for the other
-     task action buttons -->
-<!ENTITY calendar.taskview.delete.label     "Delete">
-<!ENTITY calendar.taskview.delete.accesskey "l">
 
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label              "New Calendar…">
