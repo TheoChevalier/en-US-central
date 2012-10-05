@@ -82,7 +82,6 @@
 <!ENTITY pref_plugins_tap_to_play "Tap to play">
 <!ENTITY pref_plugins_disabled "Disabled">
 <!ENTITY pref_text_size "Text size">
-<!ENTITY pref_reflow_on_zoom "Enable Reflow-On-Zoom">
 <!ENTITY pref_font_size_tiny "Tiny">
 <!ENTITY pref_font_size_small "Small">
 <!ENTITY pref_font_size_medium "Medium">
@@ -230,8 +229,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY bookmarkhistory_import_wait "Please wait...">
 
 <!ENTITY webapp_generic_name "App">
-
-<!ENTITY searchable_description "Bookmarks and history">
 
 <!-- Updater notifications -->
 <!ENTITY updater_start_title "Update available for &brandShortName;">
