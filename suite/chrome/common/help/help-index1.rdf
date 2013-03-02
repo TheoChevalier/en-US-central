@@ -1422,6 +1422,11 @@
          nc:link="mailnews_preferences.xhtml#network_and_storage_preferences"/>
      </rdf:li>
      <rdf:li>
+        <rdf:Description ID="Offline:offline_apps"
+          nc:name="Offline Web Applications"
+          nc:link="cs_nav_prefs_advanced.xhtml#offline_apps"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="Offline:Mail_and_Newsgroups"
          nc:name="Offline Mail and News"
          nc:link="mailnews_offline.xhtml#working_offline"/>
@@ -1836,6 +1841,11 @@
 <rdf:Description about="help-indexAZ.rdf#s">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
+       <rdf:Description ID="safe_browsing"
+         nc:name="safe browsing"
+         nc:link="privsec_help.xhtml#safe_browsing"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="save"
          nc:name="save"/>
      </rdf:li>
@@ -2195,6 +2205,11 @@
        <rdf:Description ID="uploading_pages"
          nc:name="uploading pages"
          nc:link="composer_help.xhtml#publishing_your_pages_on_the_web"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="user_tracking"
+         nc:name="user tracking"
+         nc:link="privsec_help.xhtml#privacy_and_security"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
