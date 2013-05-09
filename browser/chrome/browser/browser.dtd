@@ -16,18 +16,12 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(Private Browsing)">
 
 <!ENTITY appmenu.title                       "Customize and Control &brandFullName;">
-<!ENTITY navbarOverflow.label                "More tools…">
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "Reload Tab">
 <!ENTITY  reloadTab.accesskey                "R">
 <!ENTITY  reloadAllTabs.label                "Reload All Tabs">
 <!ENTITY  reloadAllTabs.accesskey            "A">
-<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
-direction in which tabs are closed, i.e. locales that use RTL mode should say
-left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "Close Tabs to the Right">
-<!ENTITY  closeTabsToTheEnd.accesskey        "i">
 <!ENTITY  closeOtherTabs.label               "Close Other Tabs">
 <!ENTITY  closeOtherTabs.accesskey           "o">
 
@@ -76,9 +70,12 @@ can reach it easily. -->
 <!ENTITY menubarCmd.label "Menu Bar">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY navbarCmd.label "Navigation Toolbar">
+<!ENTITY navbarCmd.accesskey "N">
 <!ENTITY personalbarCmd.label "Bookmarks Toolbar">
 <!ENTITY personalbarCmd.accesskey "B">
 <!ENTITY bookmarksToolbarItem.label "Bookmarks Toolbar Items">
+<!ENTITY addonBarCmd.label "Add-on Bar">
+<!ENTITY addonBarCmd.accesskey "A">
 
 <!ENTITY pageSourceCmd.label "Page Source">
 <!ENTITY pageSourceCmd.accesskey "o">
@@ -121,17 +118,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Bookmark This Page">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!ENTITY markPageCmd.commandkey "l">
-<!ENTITY sharePageCmd.label "Share This Page">
-<!ENTITY sharePageCmd.commandkey "S">
-<!ENTITY sharePageCmd.accesskey "s">
-<!ENTITY shareLinkCmd.label "Share This Link">
-<!ENTITY shareLinkCmd.accesskey "s">
-<!ENTITY shareImageCmd.label "Share This Image">
-<!ENTITY shareImageCmd.accesskey "s">
-<!ENTITY shareSelectCmd.label "Share Selection">
-<!ENTITY shareSelectCmd.accesskey "s">
-<!ENTITY shareVideoCmd.label "Share This Video">
-<!ENTITY shareVideoCmd.accesskey "s">
 <!ENTITY subscribeToPageMenupopup.label "Subscribe to This Page">
 <!ENTITY subscribeToPageMenuitem.label "Subscribe to This Page…">
 <!ENTITY addCurPagesCmd.label "Bookmark All Tabs…">
@@ -161,6 +147,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardItem.title        "Back/Forward">
 <!ENTITY locationItem.title           "Location">
 <!ENTITY searchItem.title             "Search">
+<!ENTITY throbberItem.title           "Activity Indicator">
 <!ENTITY bookmarksItem.title          "Bookmarks">
 
 <!-- Toolbar items --> 
@@ -169,7 +156,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY tabGroupsButton.label        "Tab Groups">
 <!ENTITY tabGroupsButton.tooltip      "Group your tabs">
 
+<!ENTITY feedButton.label             "Subscribe">
+<!ENTITY feedButton.tooltip           "Subscribe to this page…">
+
 <!ENTITY bookmarksButton.label          "Bookmarks">
+<!ENTITY bookmarksButton.tooltip        "Display your bookmarks">
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Bookmarks">
@@ -185,6 +176,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksWinCmd.commandkey "i">
 
 <!ENTITY historyButton.label            "History">
+<!ENTITY historyButton.tooltip          "Display pages you've viewed recently">
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "Tools">
@@ -211,12 +203,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY errorConsoleCmd.label        "Error Console">
 <!ENTITY errorConsoleCmd.accesskey    "C">
+<!ENTITY errorConsoleCmd.commandkey   "j">
 
 <!ENTITY remoteWebConsoleCmd.label    "Remote Web Console">
 
 <!ENTITY browserConsoleCmd.label      "Browser Console">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
 
 <!ENTITY inspectContextMenu.label     "Inspect Element">
 <!ENTITY inspectContextMenu.accesskey "Q">
@@ -239,10 +230,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY scratchpad.accesskey         "s">
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (chromeDebuggerMenu.label): This is the label for the
-  -  application menu item that opens the browser debugger UI in the Tools menu. -->
-<!ENTITY chromeDebuggerMenu.label       "Browser Debugger">
 
 <!ENTITY devToolbarCloseButton.tooltiptext "Close Developer Toolbar">
 <!ENTITY devToolbarMenu.label              "Developer Toolbar">
@@ -308,6 +295,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label       "Customize…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
+<!ENTITY viewTabsOnTop.label            "Tabs on Top">
+<!ENTITY viewTabsOnTop.accesskey        "T">
 
 <!ENTITY historyMenu.label "History">
 <!ENTITY historyMenu.accesskey "s">
@@ -323,16 +312,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomize.label "Customize">
 <!ENTITY appMenuBookmarks.label "Bookmarks">
 <!ENTITY appMenuHistory.label "History">
-<!ENTITY appMenuHistory.showAll.label "Show All History">
-<!ENTITY appMenuHistory.clearRecent.label "Clear Recent History…">
-<!ENTITY appMenuHistory.restoreSession.label "Restore Previous Session">
-
-<!ENTITY customizeMenu.addToToolbar.label "Add to Toolbar">
-<!ENTITY customizeMenu.addToToolbar.accesskey "A">
-<!ENTITY customizeMenu.removeFromMenu.label "Remove from Menu">
-<!ENTITY customizeMenu.removeFromMenu.accesskey "R">
-<!ENTITY customizeMenu.addMoreItems.label "Add More Items…">
-<!ENTITY customizeMenu.addMoreItems.accesskey "A">
+<!ENTITY appMenuHistoryMore.label "More…">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Search or enter address">
@@ -535,7 +515,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newWindowButton.tooltip        "Open a new window">
 <!ENTITY sidebarCloseButton.tooltip     "Close sidebar">
 
+<!ENTITY cutButton.tooltip              "Cut">
+<!ENTITY copyButton.tooltip             "Copy">
+<!ENTITY pasteButton.tooltip            "Paste">
+
 <!ENTITY fullScreenButton.tooltip       "Display the window in full screen">
+
+<!ENTITY zoomOutButton.tooltip          "Zoom out">
+<!ENTITY zoomInButton.tooltip           "Zoom in">
+<!ENTITY zoomControls.label             "Zoom Controls">
+<!ENTITY zoomReset.tooltip              "Reset Zoom">
+<!-- LOCALIZATION NOTE(zoomReset.label): the &#37; is the percent symbol. -->
+<!ENTITY zoomReset.label                "100&#37;">
 
 <!ENTITY quitApplicationCmdWin.label       "Exit"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "x">
@@ -622,6 +613,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncToolbarButton.label      "Sync">
 
+<!ENTITY addonBarCloseButton.tooltip  "Close Add-on Bar">
+<!ENTITY toggleAddonBarCmd.key        "/">
+
 <!ENTITY socialToolbar.title        "Social Toolbar Button">
 <!ENTITY social.notLoggedIn.label   "Not logged in">
 
@@ -647,7 +641,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY customizeMode.tabTitle "Customize &brandShortName;">
 <!ENTITY customizeMode.menuAndToolbars.label "Menu and toolbars">
-<!ENTITY customizeMode.menuAndToolbars.header "More Tools to Add to the Menu and Toolbar">
+<!ENTITY customizeMode.menuAndToolbars.header "More tools to add to the menu and toolbar">
+<!ENTITY customizeMode.appearance.label "Appearance">
+<!ENTITY customizeMode.appearance.header "Bling!">
 <!ENTITY customizeMode.restoreDefaults "Restore Defaults">
 
 <!ENTITY social.chatBar.commandkey "c">
@@ -670,11 +666,3 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY mixedContentBlocked.moreinfo "Most websites will still work properly even when this content is blocked.">
 
 <!ENTITY pointerLock.notification.message "Press ESC at any time to show it again.">
-
-<!ENTITY pluginNotification.showAll.label "Show All">
-<!ENTITY pluginNotification.showAll.accesskey "S">
-
-<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
-<!ENTITY pluginActivateNow.label "Allow Now">
-<!ENTITY pluginActivateAlways.label "Allow and Remember">
-<!ENTITY pluginBlockNow.label "Block Plugin">
