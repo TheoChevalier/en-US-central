@@ -32,6 +32,8 @@
 <!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Chat Account…">
 <!ENTITY newIMAccountCmd.accesskey "C">
+<!ENTITY newFeedAccountCmd.label "Feed Account…">
+<!ENTITY newFeedAccountCmd.accesskey "d">
 <!ENTITY newIMContactCmd.label "Chat Contact…">
 <!ENTITY newIMContactCmd.accesskey "h">
 <!ENTITY openMessageFileCmd.label "Open Saved Message…">
@@ -487,6 +489,8 @@
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
         which is placed under the Edit menu on Unix systems -->
 <!ENTITY accountManagerCmdUnix.accesskey "A">
+<!ENTITY allowRemoteDebugging.label "Allow Remote Debugging">
+<!ENTITY allowRemoteDebugging.accesskey "g">
 
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton.label "Get Mail">
@@ -584,8 +588,8 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Get Messages">
 <!ENTITY folderContextGetMessages.accesskey "G">
-<!ENTITY folderContextOpenNewWindow.label "Open">
-<!ENTITY folderContextOpenNewWindow.accesskey "O">
+<!ENTITY folderContextOpenInNewWindow.label "Open in New Window">
+<!ENTITY folderContextOpenInNewWindow.accesskey "O">
 <!ENTITY folderContextOpenNewTab.label "Open in New Tab">
 <!ENTITY folderContextOpenNewTab.accesskey "T">
 <!ENTITY folderContextNew.label "New Subfolder…">
