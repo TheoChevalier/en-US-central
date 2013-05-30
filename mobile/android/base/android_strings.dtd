@@ -9,18 +9,18 @@
 <!ENTITY  no_space_to_start_error "There is not enough space available for &brandShortName; to start.">
 <!ENTITY  error_loading_file "An error occurred when trying to load files required to run &brandShortName;">
 
-<!ENTITY  all_pages_title "Top Sites">
-<!ENTITY  bookmarks_title "Bookmarks">
-<!ENTITY  history_title "History">
-<!ENTITY  switch_to_tab "Switch to tab">
+<!ENTITY  awesomebar_all_pages_title "Top Sites">
+<!ENTITY  awesomebar_bookmarks_title "Bookmarks">
+<!ENTITY  awesomebar_history_title "History">
+<!ENTITY  awesomebar_switch_to_tab "Switch to tab">
 
 <!ENTITY  crash_reporter_title "&brandShortName; Crash Reporter">
 <!ENTITY  crash_message2 "&brandShortName; had a problem and crashed. Your tabs should be listed on the &brandShortName; Start page when you restart.">
-<!ENTITY  crash_send_report_message2 "Tell Mozilla about this crash so they can fix it">
+<!ENTITY  crash_send_report_message3 "Tell &vendorShortName; about this crash so they can fix it">
 <!ENTITY  crash_include_url2 "Include the address of the page I was on">
 <!ENTITY  crash_sorry "We\'re sorry">
 <!ENTITY  crash_comment "Add a comment (comments are publicly visible)">
-<!ENTITY  crash_allow_contact "Allow Mozilla to contact me about this report">
+<!ENTITY  crash_allow_contact2 "Allow &vendorShortName; to contact me about this report">
 <!ENTITY  crash_email "Your email">
 <!ENTITY  crash_closing_alert "Exit without sending a crash report?">
 <!ENTITY  sending_crash_report "Sending crash report\u2026">
@@ -33,7 +33,7 @@
 
 <!ENTITY choose_file "Choose File">
 
-<!ENTITY url_bar_default_text "Enter Search or Address">
+<!ENTITY awesomebar_default_text "Enter Search or Address">
 
 <!ENTITY remote_tabs "Synced Tabs">
 <!ENTITY remote_tabs_show_all "Show all tabs">
