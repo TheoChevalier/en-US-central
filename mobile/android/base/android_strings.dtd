@@ -9,10 +9,10 @@
 <!ENTITY  no_space_to_start_error "There is not enough space available for &brandShortName; to start.">
 <!ENTITY  error_loading_file "An error occurred when trying to load files required to run &brandShortName;">
 
-<!ENTITY  all_pages_title "Top Sites">
-<!ENTITY  bookmarks_title "Bookmarks">
-<!ENTITY  history_title "History">
-<!ENTITY  switch_to_tab "Switch to tab">
+<!ENTITY  awesomebar_all_pages_title "Top Sites">
+<!ENTITY  awesomebar_bookmarks_title "Bookmarks">
+<!ENTITY  awesomebar_history_title "History">
+<!ENTITY  awesomebar_switch_to_tab "Switch to tab">
 
 <!ENTITY  crash_reporter_title "&brandShortName; Crash Reporter">
 <!ENTITY  crash_message2 "&brandShortName; had a problem and crashed. Your tabs should be listed on the &brandShortName; Start page when you restart.">
@@ -33,7 +33,7 @@
 
 <!ENTITY choose_file "Choose File">
 
-<!ENTITY url_bar_default_text "Enter Search or Address">
+<!ENTITY awesomebar_default_text "Enter Search or Address">
 
 <!ENTITY remote_tabs "Synced Tabs">
 <!ENTITY remote_tabs_show_all "Show all tabs">
@@ -42,6 +42,7 @@
 <!ENTITY bookmark_added "Bookmark added">
 <!ENTITY bookmark_removed "Bookmark removed">
 <!ENTITY bookmark_updated "Bookmark updated">
+<!ENTITY bookmark_options "Options">
 
 <!ENTITY history_today_section "Today">
 <!ENTITY history_yesterday_section "Yesterday">
@@ -153,6 +154,8 @@ size. -->
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "Crash Reporter">
+<!ENTITY datareporting_wifi_title "&vendorShortName; location services">
+<!ENTITY datareporting_wifi_summary "Help improve geolocation services for the Open Web by letting &brandShortName; collect and send anonymous cellular tower data">
 
 <!ENTITY pref_update_autodownload "Automatic updates">
 <!ENTITY pref_update_autodownload_wifi "Only over Wi-Fi">
@@ -210,7 +213,6 @@ size. -->
 
 <!ENTITY history_removed "Page removed">
 
-<!ENTITY bookmark_add "Add a bookmark">
 <!ENTITY bookmark_edit_title "Edit Bookmark">
 <!ENTITY bookmark_edit_name "Name">
 <!ENTITY bookmark_edit_location "Location">
