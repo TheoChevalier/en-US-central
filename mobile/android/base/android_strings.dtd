@@ -9,11 +9,10 @@
 <!ENTITY  no_space_to_start_error "There is not enough space available for &brandShortName; to start.">
 <!ENTITY  error_loading_file "An error occurred when trying to load files required to run &brandShortName;">
 
-<!ENTITY  all_pages_title "Top Sites">
-<!ENTITY  bookmarks_title "Bookmarks">
-<!ENTITY  history_title "History">
-<!ENTITY  switch_to_tab "Switch to tab">
-<!ENTITY  visited_title "Visited">
+<!ENTITY  awesomebar_all_pages_title "Top Sites">
+<!ENTITY  awesomebar_bookmarks_title "Bookmarks">
+<!ENTITY  awesomebar_history_title "History">
+<!ENTITY  awesomebar_switch_to_tab "Switch to tab">
 
 <!ENTITY  crash_reporter_title "&brandShortName; Crash Reporter">
 <!ENTITY  crash_message2 "&brandShortName; had a problem and crashed. Your tabs should be listed on the &brandShortName; Start page when you restart.">
@@ -34,7 +33,10 @@
 
 <!ENTITY choose_file "Choose File">
 
-<!ENTITY url_bar_default_text "Enter Search or Address">
+<!ENTITY awesomebar_default_text "Enter Search or Address">
+
+<!ENTITY remote_tabs "Synced Tabs">
+<!ENTITY remote_tabs_show_all "Show all tabs">
 
 <!ENTITY bookmark "Bookmark">
 <!ENTITY bookmark_added "Bookmark added">
@@ -113,6 +115,7 @@
 <!ENTITY pref_plugins_disabled "Disabled">
 <!ENTITY pref_text_size "Text size">
 <!ENTITY pref_reflow_on_zoom3 "Double tap to reflow text">
+<!ENTITY pref_restore_session "Always restore tabs">
 <!ENTITY pref_font_size_tiny "Tiny">
 <!ENTITY pref_font_size_small "Small">
 <!ENTITY pref_font_size_medium "Medium">
@@ -230,7 +233,6 @@ size. -->
 
 <!ENTITY history_removed "Page removed">
 
-<!ENTITY bookmark_add "Add a bookmark">
 <!ENTITY bookmark_edit_title "Edit Bookmark">
 <!ENTITY bookmark_edit_name "Name">
 <!ENTITY bookmark_edit_location "Location">
@@ -271,7 +273,6 @@ size. -->
 <!ENTITY abouthome_topsites_edit "Edit">
 <!ENTITY abouthome_topsites_pin "Pin Site">
 <!ENTITY abouthome_topsites_unpin "Unpin Site">
-<!ENTITY abouthome_visited_empty "Websites you visited go here">
 
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
