@@ -9,10 +9,11 @@
 <!ENTITY  no_space_to_start_error "There is not enough space available for &brandShortName; to start.">
 <!ENTITY  error_loading_file "An error occurred when trying to load files required to run &brandShortName;">
 
-<!ENTITY  awesomebar_all_pages_title "Top Sites">
-<!ENTITY  awesomebar_bookmarks_title "Bookmarks">
-<!ENTITY  awesomebar_history_title "History">
-<!ENTITY  awesomebar_switch_to_tab "Switch to tab">
+<!ENTITY  all_pages_title "Top Sites">
+<!ENTITY  bookmarks_title "Bookmarks">
+<!ENTITY  history_title "History">
+<!ENTITY  switch_to_tab "Switch to tab">
+<!ENTITY  visited_title "Visited">
 
 <!ENTITY  crash_reporter_title "&brandShortName; Crash Reporter">
 <!ENTITY  crash_message2 "&brandShortName; had a problem and crashed. Your tabs should be listed on the &brandShortName; Start page when you restart.">
@@ -33,10 +34,7 @@
 
 <!ENTITY choose_file "Choose File">
 
-<!ENTITY awesomebar_default_text "Enter Search or Address">
-
-<!ENTITY remote_tabs "Synced Tabs">
-<!ENTITY remote_tabs_show_all "Show all tabs">
+<!ENTITY url_bar_default_text "Enter Search or Address">
 
 <!ENTITY bookmark "Bookmark">
 <!ENTITY bookmark_added "Bookmark added">
@@ -235,6 +233,7 @@ size. -->
 
 <!ENTITY history_removed "Page removed">
 
+<!ENTITY bookmark_add "Add a bookmark">
 <!ENTITY bookmark_edit_title "Edit Bookmark">
 <!ENTITY bookmark_edit_name "Name">
 <!ENTITY bookmark_edit_location "Location">
@@ -252,10 +251,7 @@ size. -->
 <!ENTITY reading_list_removed "Page removed from your Reading List">
 <!ENTITY reading_list_failed "Failed to add page to your Reading List">
 <!ENTITY reading_list_duplicate "Page already in your Reading List">
-
-<!-- Localization note : These strings are used as alternate text for accessibility.
-     They are not visible in the UI. -->
-<!ENTITY page_action_dropmarker_description "Additional Actions">
+<!ENTITY reader "Reader">
 
 <!ENTITY masterpassword_create_title "Create Master Password">
 <!ENTITY masterpassword_remove_title "Remove Master Password">
@@ -270,14 +266,9 @@ size. -->
 <!ENTITY button_set "Set">
 <!ENTITY button_clear "Clear">
 
-<!ENTITY abouthome_addons_title "Add-ons for your &brandShortName;">
-<!ENTITY abouthome_addons_browse "Browse all &brandShortName; add-ons">
 <!ENTITY abouthome_last_tabs_title "Your tabs from last time">
 <!ENTITY abouthome_last_tabs_open "Open all tabs from last time">
-<!ENTITY abouthome_top_sites_title "Top sites">
-<!ENTITY abouthome_topsites_edit "Edit">
-<!ENTITY abouthome_topsites_pin "Pin Site">
-<!ENTITY abouthome_topsites_unpin "Unpin Site">
+<!ENTITY abouthome_visited_empty "Websites you visited go here">
 
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
