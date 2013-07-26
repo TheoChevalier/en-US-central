@@ -6,10 +6,10 @@
 <!ENTITY  no_space_to_start_error "There is not enough space available for &brandShortName; to start.">
 <!ENTITY  error_loading_file "An error occurred when trying to load files required to run &brandShortName;">
 
-<!ENTITY  awesomebar_all_pages_title "Top Sites">
-<!ENTITY  awesomebar_bookmarks_title "Bookmarks">
-<!ENTITY  awesomebar_history_title "History">
-<!ENTITY  awesomebar_switch_to_tab "Switch to tab">
+<!ENTITY  all_pages_title "Top Sites">
+<!ENTITY  bookmarks_title "Bookmarks">
+<!ENTITY  history_title "History">
+<!ENTITY  switch_to_tab "Switch to tab">
 
 <!ENTITY  crash_reporter_title "&brandShortName; Crash Reporter">
 <!ENTITY  crash_message2 "&brandShortName; had a problem and crashed. Your tabs should be listed on the &brandShortName; Start page when you restart.">
@@ -30,10 +30,7 @@
 
 <!ENTITY choose_file "Choose File">
 
-<!ENTITY awesomebar_default_text "Enter Search or Address">
-
-<!ENTITY remote_tabs "Synced Tabs">
-<!ENTITY remote_tabs_show_all "Show all tabs">
+<!ENTITY url_bar_default_text "Enter Search or Address">
 
 <!ENTITY bookmark "Bookmark">
 <!ENTITY bookmark_added "Bookmark added">
@@ -215,8 +212,7 @@ size. -->
 <!ENTITY contextmenu_open_new_tab "Open in New Tab">
 <!ENTITY contextmenu_open_private_tab "Open in Private Tab">
 <!ENTITY contextmenu_open_in_reader "Open in Reader">
-<!ENTITY contextmenu_remove_history "Remove">
-<!ENTITY contextmenu_remove_bookmark "Remove">
+<!ENTITY contextmenu_remove "Remove">
 <!ENTITY contextmenu_add_to_launcher "Add to Home Screen">
 <!ENTITY contextmenu_share "Share">
 <!ENTITY contextmenu_pasteandgo "Paste &amp; Go">
@@ -225,6 +221,9 @@ size. -->
 <!ENTITY contextmenu_edit_bookmark "Edit">
 <!ENTITY contextmenu_subscribe "Subscribe to Page">
 <!ENTITY contextmenu_site_settings "Edit Site Settings">
+<!ENTITY contextmenu_top_bookmarks_edit "Edit">
+<!ENTITY contextmenu_top_bookmarks_pin "Pin Site">
+<!ENTITY contextmenu_top_bookmarks_unpin "Unpin Site">
 
 <!ENTITY pref_titlebar_mode "Title bar">
 <!ENTITY pref_titlebar_mode_title "Show page title">
@@ -232,6 +231,7 @@ size. -->
 
 <!ENTITY history_removed "Page removed">
 
+<!ENTITY bookmark_add "Add a bookmark">
 <!ENTITY bookmark_edit_title "Edit Bookmark">
 <!ENTITY bookmark_edit_name "Name">
 <!ENTITY bookmark_edit_location "Location">
@@ -267,28 +267,13 @@ size. -->
 <!ENTITY button_set "Set">
 <!ENTITY button_clear "Clear">
 
-<!ENTITY abouthome_addons_title "Add-ons for your &brandShortName;">
-<!ENTITY abouthome_addons_browse "Browse all &brandShortName; add-ons">
-<!ENTITY abouthome_last_tabs_title "Your tabs from last time">
-<!ENTITY abouthome_last_tabs_open "Open all tabs from last time">
-<!ENTITY abouthome_top_sites_title "Top sites">
-<!ENTITY abouthome_topsites_edit "Edit">
-<!ENTITY abouthome_topsites_pin "Pin Site">
-<!ENTITY abouthome_topsites_unpin "Unpin Site">
-
-<!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
-     chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
-     clicking this text in the promotions box will perform some action. Note
-     that a non-breaking space (unicode= U+00A0) should be used between this
-     character and the remainder of the string to prevent word wrap. -->
-<!ENTITY abouthome_about_sync3 "Set up Firefox Sync to access bookmarks, history and tabs from your other devices&#x00A0;»">
-<!ENTITY abouthome_about_apps3 "Get apps from the Firefox Marketplace and discover the best the Web has to offer&#x00A0;»">
-<!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
-     These strings are accentuated as bold text in the "abouthome_about_..."
-     strings above. These strings should be a subset of the strings above and
-     generally be the name of the product the string describes. -->
-<!ENTITY abouthome_sync_bold_name "Firefox Sync">
-<!ENTITY abouthome_apps_bold_name2 "Firefox Marketplace">
+<!ENTITY home_history_title "History">
+<!ENTITY home_last_tabs_title "Tabs from last time">
+<!ENTITY home_last_tabs_open "Open all tabs from last time">
+<!ENTITY home_most_recent_title "Most recent">
+<!ENTITY home_most_visited_title "Most visited">
+<!ENTITY home_visited_empty "Websites you visited go here">
+<!ENTITY pin_bookmark_dialog_hint "Enter a search keyword">
 
 <!ENTITY filepicker_title "Choose File">
 <!ENTITY filepicker_audio_title "Choose or record a sound">
@@ -352,5 +337,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_apply_select2 "Touch to update">
 
 <!-- Guest mode -->
-<!ENTITY enter_guest_mode "Enter Guest Mode">
-<!ENTITY exit_guest_mode "Exit Guest Mode">
+<!ENTITY enter_guest_mode "Enter guest mode">
+<!ENTITY exit_guest_mode "Leave guest mode">
+<!ENTITY guest_mode_dialog_continue "Continue">
+<!ENTITY guest_mode_dialog_cancel "Cancel">
+<!ENTITY guest_mode_enter_title "Guest mode">
+<!ENTITY guest_mode_enter_text "While in guest mode, the person using &brandShortName; will not be able to see any of your personal browsing data (like your saved passwords, history or bookmarks).\n\nWhen your guest is done, their browsing data will be deleted.">
+
+<!ENTITY guest_mode_leave_title "Leaving guest mode">
+<!ENTITY guest_mode_leave_text "&brandShortName; will delete browsing data from this session.">
