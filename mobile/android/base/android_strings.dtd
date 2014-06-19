@@ -11,7 +11,6 @@
 <!ENTITY  bookmarks_title "Bookmarks">
 <!ENTITY  history_title "History">
 <!ENTITY  reading_list_title "Reading List">
-<!ENTITY  recent_tabs_title "Recent Tabs">
 
 <!ENTITY  switch_to_tab "Switch to tab">
 
@@ -44,8 +43,8 @@
 
 <!ENTITY history_today_section "Today">
 <!ENTITY history_yesterday_section "Yesterday">
-<!ENTITY history_week_section2 "Last Week">
-<!ENTITY history_older_section2 "Last Month">
+<!ENTITY history_week_section "7 days ago">
+<!ENTITY history_older_section "Older than 7 days">
 
 <!ENTITY go "Go">
 <!ENTITY search "Search">
@@ -145,11 +144,7 @@
 <!ENTITY pref_char_encoding "Character encoding">
 <!ENTITY pref_char_encoding_on "Show menu">
 <!ENTITY pref_char_encoding_off "Don\'t show menu">
-<!ENTITY pref_clear_private_data2 "Clear now">
-<!ENTITY pref_clear_private_data_category "Clear private data">
-<!ENTITY pref_clear_on_exit_title "Always clear when quitting">
-<!ENTITY pref_clear_on_exit_summary "&brandShortName; will automatically clear your data whenever you select &quot;Quit&quot; from the main menu">
-<!ENTITY pref_clear_on_exit_dialog_title "Select which data to clear">
+<!ENTITY pref_clear_private_data "Clear private data">
 <!ENTITY pref_plugins "Plugins">
 <!ENTITY pref_plugins_enabled "Enabled">
 <!ENTITY pref_plugins_tap_to_play "Tap to play">
@@ -284,6 +279,7 @@ size. -->
 
 <!ENTITY contextmenu_open_new_tab "Open in New Tab">
 <!ENTITY contextmenu_open_private_tab "Open in Private Tab">
+<!ENTITY contextmenu_open_in_reader "Open in Reader">
 <!ENTITY contextmenu_remove "Remove">
 <!ENTITY contextmenu_add_to_launcher "Add to Home Screen">
 <!ENTITY contextmenu_share "Share">
@@ -353,10 +349,10 @@ size. -->
 <!ENTITY home_clear_history_button "Clear browsing history">
 <!ENTITY home_clear_history_confirm "Are you sure you want to clear your history?">
 <!ENTITY home_bookmarks_empty "Bookmarks you save show up here.">
-<!ENTITY home_closed_tabs_title "Recently closed tabs">
 <!ENTITY home_last_tabs_title "Tabs from last time">
+<!ENTITY home_last_tabs_open "Open all tabs from last time">
 <!ENTITY home_last_tabs_empty "Your recent tabs show up here.">
-<!ENTITY home_open_all "Open all">
+<!ENTITY home_most_recent_title "Most recent">
 <!ENTITY home_most_recent_empty "Websites you visited most recently show up here.">
 <!ENTITY home_reading_list_empty "Articles you save for later show up here.">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
@@ -377,7 +373,7 @@ size. -->
 <!ENTITY home_move_up_to_filter "Up to &formatS;">
 
 <!ENTITY private_browsing_title "Private Browsing">
-<!ENTITY private_tabs_panel_empty_desc "Your private tabs will show up here. While we don\'t keep any of your browsing history or cookies, bookmarks and files that you download will still be saved on your device.">
+<!ENTITY private_tabs_panel_description "Your private tabs will show up here. While we don\'t keep any form of your browsing history or cookies, files that you download will still be saved on your device.">
 <!ENTITY private_tabs_panel_learn_more "Want to learn more?">
 
 <!ENTITY pin_site_dialog_hint "Enter a search keyword">
