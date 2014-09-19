@@ -78,11 +78,13 @@
 <!ENTITY settings_title "Settings">
 <!ENTITY pref_category_advanced "Advanced">
 <!ENTITY pref_category_customize "Customize">
+<!ENTITY pref_category_customize_summary "Home, search, tabs, import">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
 <!ENTITY pref_category_language "Language">
+<!ENTITY pref_category_language_summary "Change the language of your browser">
 <!ENTITY pref_browser_locale "Browser language">
 
 <!-- Localization note (locale_system_default) : This string indicates that
@@ -116,8 +118,11 @@
 <!ENTITY pref_category_search3 "Search">
 <!ENTITY pref_category_search_summary "Customize your search providers">
 <!ENTITY pref_category_display "Display">
+<!ENTITY pref_category_display_summary "Text, title bar, full-screen browsing">
 <!ENTITY pref_category_privacy_short "Privacy">
+<!ENTITY pref_category_privacy_summary "Control passwords, cookies, tracking, data">
 <!ENTITY pref_category_vendor "&vendorShortName;">
+<!ENTITY pref_category_vendor_summary "About &brandShortName;, FAQs, data choices">
 <!ENTITY pref_category_datareporting "Data choices">
 <!ENTITY pref_learn_more "Learn more">
 <!ENTITY pref_category_installed_search_engines "Installed search engines">
@@ -132,6 +137,7 @@
      it is applicable. -->
 <!ENTITY pref_search_hint "TIP: Add any website to your list of search providers by long-pressing on its search field and then tapping the &formatI; icon.">
 <!ENTITY pref_category_devtools "Developer tools">
+<!ENTITY pref_category_devtools_summary "Remote debugging, paint flashing">
 <!ENTITY pref_developer_paint_flashing "Paint flashing">
 <!ENTITY pref_developer_remotedebugging "Remote debugging">
 <!ENTITY pref_remember_signons "Remember passwords">
@@ -166,17 +172,15 @@
 <!ENTITY pref_cookies_not_accept_foreign "Enabled, excluding 3rd party">
 <!ENTITY pref_cookies_disabled "Disabled">
 
-<!ENTITY pref_donottrack_menu "Tracking">
-<!ENTITY pref_donottrack_disallow_tracking "Tell sites that I do not want to be tracked">
-<!ENTITY pref_donottrack_allow_tracking "Tell sites that I want to be tracked">
-<!ENTITY pref_donottrack_no_pref "Do not tell sites anything about my tracking preferences">
+<!ENTITY pref_donottrack_title "Do not track">
+<!ENTITY pref_donottrack_summary "&brandShortName; will tell sites that you do not want to be tracked">
 
 <!ENTITY pref_char_encoding "Character encoding">
 <!ENTITY pref_char_encoding_on "Show menu">
 <!ENTITY pref_char_encoding_off "Don\'t show menu">
 <!ENTITY pref_clear_private_data2 "Clear now">
 <!ENTITY pref_clear_private_data_category "Clear private data">
-<!ENTITY pref_clear_on_exit_title "Always clear when quitting">
+<!ENTITY pref_clear_on_exit_title2 "Clear on exit">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; will automatically clear your data whenever you select \u0022Quit\u0022 from the main menu">
 <!ENTITY pref_clear_on_exit_dialog_title "Select which data to clear">
 <!ENTITY pref_plugins "Plugins">
@@ -207,8 +211,10 @@ size. -->
 
 <!ENTITY pref_use_master_password "Use master password">
 <!ENTITY pref_sync "Sync">
+<!ENTITY pref_sync_summary "Sync your tabs, bookmarks, passwords, history">
 <!ENTITY pref_search_suggestions "Show search suggestions">
 <!ENTITY pref_import_android "Import from Android">
+<!ENTITY pref_import_android_summary "Import bookmarks and history from the native browser">
 <!ENTITY pref_private_data_history2 "Browsing history">
 <!ENTITY pref_private_data_formdata "Form &amp; search history">
 <!ENTITY pref_private_data_cookies2 "Cookies &amp; active logins">
@@ -258,8 +264,7 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "Crash Reporter">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; Location Service">
-<!ENTITY datareporting_wifi_geolocation_summary "Receives Wi-Fi and cellular location data when running in the background and shares it with &vendorShortName; to improve our geolocation service">
-
+<!ENTITY datareporting_wifi_geolocation_summary2 "Shares approximate Wi-Fi and cellular location of your device with &vendorShortName; to improve our geolocation service">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -357,6 +362,12 @@ size. -->
 <!ENTITY reading_list_failed "Failed to add page to your Reading List">
 <!ENTITY reading_list_duplicate "Page already in your Reading List">
 
+<!-- Localization note (reading_list_time_minutes) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+<!ENTITY reading_list_time_minutes "&formatD;min">
+<!ENTITY reading_list_time_over_an_hour "Over an hour">
+
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
 <!ENTITY page_action_dropmarker_description "Additional Actions">
@@ -429,6 +440,10 @@ size. -->
 <!ENTITY private_browsing_title "Private Browsing">
 <!ENTITY private_tabs_panel_empty_desc "Your private tabs will show up here. While we don\'t keep any of your browsing history or cookies, bookmarks and files that you download will still be saved on your device.">
 <!ENTITY private_tabs_panel_learn_more "Want to learn more?">
+
+<!ENTITY remote_tabs_panel_moved_title "Where did my tabs go?">
+<!ENTITY remote_tabs_panel_moved_desc "We\'ve moved your tabs from other devices into a panel on your home page that can be easily accessed every time you open a new tab.">
+<!ENTITY remote_tabs_panel_moved_link "Take me to my new panel.">
 
 <!ENTITY pin_site_dialog_hint "Enter a search keyword">
 
@@ -525,7 +540,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- These are only used for accessiblity for the done and overflow-menu buttons in the actionbar.
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "Menu">
 <!ENTITY actionbar_done "Done">
