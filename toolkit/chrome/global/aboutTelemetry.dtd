@@ -16,10 +16,6 @@
   General Data
 ">
 
-<!ENTITY aboutTelemetry.environmentDataSection "
-  Environment Data
-">
-
 <!ENTITY aboutTelemetry.telemetryLogSection "
   Telemetry Log
 ">
