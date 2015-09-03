@@ -55,8 +55,9 @@
 
 <!ENTITY history_today_section "Today">
 <!ENTITY history_yesterday_section "Yesterday">
-<!ENTITY history_week_section2 "Last Week">
-<!ENTITY history_older_section2 "Last Month">
+<!ENTITY history_week_section3 "Last 7 days">
+<!ENTITY history_this_month_section "This month">
+<!ENTITY history_older_section3 "Older than 6 months">
 
 <!ENTITY go "Go">
 <!ENTITY search "Search">
@@ -69,8 +70,6 @@
 <!ENTITY edit_mode_cancel "Cancel">
 
 <!ENTITY close_tab "Close Tab">
-<!ENTITY tab_audio_playing "This tab is playing audio">
-<!ENTITY tab_audio_muted "This tab has been muted">
 <!ENTITY one_tab "1 tab">
 <!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
