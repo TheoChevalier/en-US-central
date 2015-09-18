@@ -8,6 +8,3 @@
 
 <!ENTITY aboutAccounts.noConnection.title "No Internet connection">
 <!ENTITY aboutAccounts.retry.label "Try again">
-
-<!ENTITY aboutAccounts.restrictedError.title "Restricted">
-<!ENTITY aboutAccounts.restrictedError.description "You cannot manage Firefox Accounts from this profile.">
